@@ -1,6 +1,10 @@
 # Ignore everything by default
 *
-# Allow the following
+
+# Allow specific files and folders
 !.gitignore
 !README.md
 !**/docker-compose.yaml
+
+# Exclude all other files and folders
+!*/
