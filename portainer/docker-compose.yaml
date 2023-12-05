@@ -9,7 +9,6 @@ services:
     security_opt:
       - no-new-privileges:true
     networks:
-      - default
       - npm
     volumes:
       - /etc/localtime:/etc/localtime:ro
@@ -17,6 +16,5 @@ services:
       - ./data:/data
 
 networks:
-  default:
   npm:
     external: true
