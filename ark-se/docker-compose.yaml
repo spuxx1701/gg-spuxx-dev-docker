@@ -13,7 +13,7 @@ services:
     volumes:
       - /home/servers/ark-se:/home/ips-hosting
     env_file:
-      - ./.env
+      - .env
     environment:
       - PUBLIC_IP=185.163.117.84
       - GAME_PORT=7777
