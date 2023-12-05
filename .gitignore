@@ -1,0 +1,6 @@
+# Ignore everything by default
+*
+# Allow the following
+!.gitignore
+!README.md
+!**/docker-compose.yaml
