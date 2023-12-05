@@ -28,3 +28,11 @@ docker compose up -d
 cd ~/docker/portainer
 docker compose up -d
 ```
+
+## Set up a docker runtime user
+
+We'll set up a user that'll have limited privileges and that'll be used by the game servers.
+
+```bash
+sudo adduser --uid 1337 servers
+```

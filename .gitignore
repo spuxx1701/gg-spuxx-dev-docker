@@ -3,8 +3,11 @@
 
 # Allow specific files and folders
 !.gitignore
-!README.md
+!**/README.md
+!**/image/**
 !**/docker-compose.yaml
+
+!ark-se/mod-list.yaml
 
 # Exclude all other files and folders
 !*/
