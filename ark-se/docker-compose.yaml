@@ -5,9 +5,9 @@ services:
     container_name: ark-se
     restart: unless-stopped
     ports:
-      - "7777:7777" # Game client port
-      - "7778:7778" # Raw game client port
-      - "27015:27015" # Steam query port
+      - "7777:7777/udp" # Game client port
+      - "7778:7778/udp" # Raw game client port
+      - "27015:27015/udp" # Steam query port
     networks:
       - npm
     volumes:
